@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "baxters-power-goo"
+version = "1.0.0"
+description = "Baxters Power Goo — Linux image-deformation tool"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary"}
+authors = [{name = "Baxter"}]
+
+dependencies = [
+    "numpy>=1.24",
+    "Pillow>=10.0",
+    "PyQt6>=6.5",
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+audio = ["simpleaudio", "pyaudio"]
+cv = ["opencv-python"]
+dev = ["pytest>=7.0", "pytest-qt"]
+
+[project.scripts]
+baxters-power-goo = "baxters_power_goo.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

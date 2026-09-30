@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: power-goo
+Source: https://github.com/BaxtersLab/Baxters_Power_Goo_Linux
+
+Files: *
+Copyright: 2026 Baxters Lab
+License: GPL-3.0-only
+ This application uses PyQt6, which is licensed GPL-3. Riverbank's terms oblige an application using the GPL build of PyQt6 to be GPL-compatible, whether PyQt6 is bundled or merely depended upon. This package depends on the distribution's python3-pyqt6 and does not redistribute it.
+ .
+
+License: GPL-3.0-only
+ The full text of this licence is in /usr/share/common-licenses/GPL-3 on Debian and Ubuntu systems.
+ .
+ This package is open source. Third-party components it depends on are supplied
+ by the distribution and remain under their own licences; this package does not
+ bundle or redistribute them.

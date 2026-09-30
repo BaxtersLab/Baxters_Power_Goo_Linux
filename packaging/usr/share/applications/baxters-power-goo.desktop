@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Baxters Power Goo
+Comment=Image warp and effect tools — bubble, squeeze, smear, sharpen
+Exec=/opt/baxters/power-goo/run.sh %F
+Icon=/opt/baxters/power-goo/assets/icon_256.png
+Terminal=false
+Categories=Graphics;2DGraphics;RasterGraphics;
+MimeType=image/png;image/jpeg;image/bmp;image/tiff;
+StartupWMClass=main.py

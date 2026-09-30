@@ -1,0 +1,19 @@
+# Build output and environments. These are regenerated, often gigabytes, and
+# never source. target/ appears at any depth (Tauri nests one under app/).
+target/
+dist/
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.deb
+
+# Hand-made backups: git history is the backup (operator ruling 2026-09-27).
+*.bak*
+
+# Kept off the public repository: the working notes, and the legacy Makefile
+# stage (make build-deb regenerates debian/usr/; build_deb.sh never reads it).
+/handoffs.md
+/debian/usr/

@@ -1,0 +1,15 @@
+Package: baxters-power-goo
+Version: 1.0.0-6
+Section: graphics
+Priority: optional
+Architecture: all
+Maintainer: Baxters Lab <baxtersbeats@outlook.com>
+Depends: python3 (>= 3.11), python3-pyqt6, python3-numpy, python3-pil, python3-scipy,
+ wl-clipboard, xclip
+Recommends: baxters-runtime
+Description: Baxters Power Goo — image warp and effect tools
+ Four interactive image tools: bubble, squeeze, smear and sharpen.
+ .
+ Distro interpreter lane (packaging contract A1 §2a): PyQt6 and SciPy are distro
+ C-extension packages and cannot be vendored. Recommends baxters-runtime only for
+ the shared launcher scrub (baxters-env.sh); the app does not use its interpreter.

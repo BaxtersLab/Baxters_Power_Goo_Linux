@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Baxters Power Goo
+GenericName=Image Deformation Tool
+Comment=Apply goo-style warp effects to images
+Exec=baxters-power-goo %F
+Icon=baxters-power-goo
+Terminal=false
+Categories=Graphics;ImageProcessing;
+MimeType=image/png;image/jpeg;image/bmp;image/tiff;
+Keywords=goo;warp;deform;image;effect;
+StartupNotify=true
+StartupWMClass=BaxtersPowerGoo

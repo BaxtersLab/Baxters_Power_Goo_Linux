@@ -1,0 +1,11 @@
+Package: baxters-power-goo
+Version: 1.0.0
+Architecture: all
+Maintainer: Baxter <baxter@localhost>
+Installed-Size: 512
+Depends: python3 (>= 3.11), python3-numpy, python3-pil, python3-pyqt6, python3-scipy, xclip | wl-clipboard
+Section: graphics
+Priority: optional
+Description: Baxters Power Goo — image deformation tool
+ Apply goo-style warp and deformation effects to images.
+ Supports PNG, JPEG, BMP, TIFF input. Clipboard paste via xclip or wl-paste.
